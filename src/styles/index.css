@@ -1,12 +1,60 @@
+body {
+    margin: 50px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-/* 
+.text-center {
+    text-align: center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.rowTask {
+    display: flex;
+    border: 1px solid darkgray;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    margin: 1px;
+    padding: 3px;
+}
 
-*/
+.inputTasks{
+    width: 551px;
+    border: 1px solid darkgray;
+    padding: 3px;
+}
+
+.task-item {
+    width: 80%;
+    border: 1px solid darkgray;
+    list-style: none;
+    padding: 5px;
+}
+
+input {
+    border: none;
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.effect:hover {
+    color: white;
+    background-color:black; 
+}
+
+.countTask {
+    margin-right:100%;
+    width: 100%;
+}
